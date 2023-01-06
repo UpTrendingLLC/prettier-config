@@ -1,0 +1,36 @@
+{
+  "name": "@husldigital/prettier-config",
+  "version": "2.7.0",
+  "description": "The HUSL Digital Prettier shared configuration.",
+  "author": "The HUSL Digital team",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "husldigital",
+    "wordpress",
+    "prettier",
+    "config"
+  ],
+  "homepage": "https://github.com/UpTrendingLLC/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UpTrendingLLC/prettier-config.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/UpTrendingLLC/prettier-config/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js",
+  "types": "build-types",
+  "peerDependencies": {
+    "prettier": ">=2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
