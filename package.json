@@ -1,6 +1,6 @@
 {
   "name": "@husldigital/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The HUSL Digital Prettier shared configuration.",
   "author": "The HUSL Digital team",
   "license": "GPL-2.0-or-later",
