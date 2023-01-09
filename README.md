@@ -17,7 +17,7 @@ $ npm install prettier @prettier/plugin-php @husldigital/prettier-config --save-
 1. Make sure you installed all the dependencies in the `package.json` file:
 
 ```json
-  "@husldigital/prettier-config": "^1.0.3",
+  "@husldigital/prettier-config": "^1.0.4",
   "@prettier/plugin-php": "^0.19.2",
   "prettier": "^2.8.2"
 ```
