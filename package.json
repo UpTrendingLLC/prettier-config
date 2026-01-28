@@ -1,6 +1,6 @@
 {
   "name": "@husldigital/prettier-config",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "The HUSL Digital Prettier shared configuration.",
   "author": "The HUSL Digital team",
   "license": "GPL-2.0-or-later",
@@ -20,16 +20,17 @@
     "url": "https://github.com/UpTrendingLLC/prettier-config/issues"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "files": [
-    "lib/index.js"
+    "lib/index.js",
+    "lib/index.d.ts"
   ],
   "main": "lib/index.js",
-  "types": "build-types",
+  "types": "lib/index.d.ts",
   "peerDependencies": {
-    "prettier": ">=2",
-    "@prettier/plugin-php": ">=0.19.2"
+    "@prettier/plugin-php": "^0.22.4",
+    "prettier": "^3.8.1"
   },
   "publishConfig": {
     "access": "public"
