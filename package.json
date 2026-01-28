@@ -1,6 +1,6 @@
 {
   "name": "@husldigital/prettier-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The HUSL Digital Prettier shared configuration.",
   "author": "The HUSL Digital team",
   "license": "GPL-2.0-or-later",
@@ -13,7 +13,7 @@
   "homepage": "https://github.com/UpTrendingLLC/prettier-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UpTrendingLLC/prettier-config.git",
+    "url": "git+https://github.com/UpTrendingLLC/prettier-config.git",
     "directory": "packages/prettier-config"
   },
   "bugs": {
