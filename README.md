@@ -41,7 +41,7 @@ export default config;
 
 ## Migration from v1.x
 
-**Breaking changes in v2.0.0:**
+**Breaking changes in v2.0.1:**
 
 - Requires Prettier 3.x (not compatible with Prettier 2)
 - Requires Node.js 18+

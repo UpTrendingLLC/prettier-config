@@ -20,14 +20,27 @@
     "url": "https://github.com/UpTrendingLLC/prettier-config/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18",
+    "npm": ">=9"
   },
   "files": [
     "lib/index.js",
+    "lib/index.mjs",
     "lib/index.d.ts"
   ],
   "main": "lib/index.js",
+  "module": "lib/index.mjs",
   "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node scripts/test.js"
+  },
   "peerDependencies": {
     "@prettier/plugin-php": "^0.22.4",
     "prettier": "^3.8.1"
